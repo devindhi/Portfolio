@@ -10,6 +10,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/devindhi/Portfolio",
     vid: "/port.png",
+    demo:"/"
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const projectsData = [
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/devindhi/Instagram-clone",
     vid: "/insta.png",
+    demo:"https://social-app-devindhi.vercel.app/"
   },
   {
     id: 4,
