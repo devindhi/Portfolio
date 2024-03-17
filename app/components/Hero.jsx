@@ -29,8 +29,8 @@ const Hero = () => {
             ]}
             wrapper="span"
             speed={50}
-            style={{ fontSize: "2.5em", display: "inline-block" }}
-            repeat={10}
+            style={{ fontSize: "2.5em", display: "inline-block",color:"white" }}
+            repeat={Infinity}
           />
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             As a highly motivated second-year undergraduate pursuing a degree in
