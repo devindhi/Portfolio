@@ -1,10 +1,15 @@
 "use client"
 import React from "react";
-import "tailwindcss/tailwind.css";
 import { Image, Text, Button } from "@chakra-ui/react";
 import { TypeAnimation } from "react-type-animation";
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+  const router = useRouter();
+
+  const navigateToContact = () => {
+    router.push('/#contact');
+  };
 
   return (
     <section>
@@ -25,7 +30,6 @@ const Hero = () => {
                 1000,
                 "Web Developer",
                 1000,
-             
             ]}
             wrapper="span"
             speed={50}
@@ -47,6 +51,7 @@ const Hero = () => {
               mr={6}
               mb={6}
               className="px-6 inline-block py-3 w-full sm:w-fit "
+              onClick={navigateToContact} // Use navigateToContact function
             >
               Hire Me
             </Button>

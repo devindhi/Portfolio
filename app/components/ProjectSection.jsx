@@ -16,12 +16,13 @@ const projectsData = [
     id: 2,
     title: "Hirely Website",
     description:
-      "AI-driven website that allows recruiters to hire easily.Technologies: React + Tailwind, Node + Express, MongoDB, Python, GPT-3.5 Turbo. A custom solution website that allows recruiters to post jobs and questions related to that role. An outside user can view the jobs and answer the questions related to the job position. A fine-tuned model then analyzes the answers submitted by the user and categorizes them into three categories: good, moderate, and bad, which are then shown to the recruiter.",
+      "AI-driven website that allows recruiters to hire easily.Technologies: React + Tailwind, Node + Express, MongoDB, Python, GPT-3.5 Turbo, for authentification and authorization clerk was used. A custom solution website that allows recruiters to post jobs and questions related to that role. An outside user can view the jobs and answer the questions related to the job position. A fine-tuned model then analyzes the answers submitted by the user and categorizes them into three categories: good, moderate, and bad, which are then shown to the recruiter.",
 
     image: "/hirely.png",
     tag: ["All", "Web"],
+    vid:"/222.png",
     gitUrl: "https://github.com/devindhi/Hirely",
-    previewUrl: "/",
+    demo: "https://drive.google.com/file/d/1Xi6Rj8Pl1_jNlLzA9uWNq95J-VQdyISF/view?usp=drive_link",
   },
   {
     id: 3,
@@ -36,11 +37,11 @@ const projectsData = [
   {
     id: 4,
     title: "E-commerce Application",
-    description: "A e-commerce platform. Technologies: Java| JavaSwing | MySql. A shopping cart GUI was created for the user and a console was created for the shop manager to manage the products in the shop.OOP concepts are properly included in this project, which makes this project a show case my knowledge in OOP concepts well",
+    description: "A e-commerce platform. Technologies: Java| JavaSwing | MySql. A database that manages customers and a shopping cart GUI was created for the user and a console was created for the shop manager to manage the products in the shop.OOP concepts are properly included in this project, which makes this project a show case my knowledge in OOP concepts well",
     image: "/online.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/devindhi/Online-Shopping",
-    demo: "https://drive.google.com/file/d/1aZadBlySrQc_bOnDNROuVc4vwlM542iE/view?usp=drive_link",
+    demo: "https://drive.google.com/file/d/1SQeBlj-Rm7Br8WtJTs2tUVtNzOQnEj9y/view?usp=sharing",
     vid:"/shopping cart.png"
   },
 
@@ -61,10 +62,9 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/devindhi/Appointment-Schedule-",
     vid: "/appointment.png",
-    demo: "https://drive.google.com/file/d/1SQeBlj-Rm7Br8WtJTs2tUVtNzOQnEj9y/view?usp=sharing",
+    demo: "https://drive.google.com/file/d/1aZadBlySrQc_bOnDNROuVc4vwlM542iE/view?usp=drive_link",
   },
 ];
-
 const ProjectSection = () => {
   return (
     <div id="projects">

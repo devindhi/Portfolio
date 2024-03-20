@@ -51,7 +51,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, vid, demo }) => {
                   <h2 className="text-4xl font-bold text-white mb-4">
                     Demonstration Image
                   </h2>
-                  <AspectRatio maxW="400px" ratio={4 / 3}>
+                  <AspectRatio maxW="450px" ratio={4 / 3}>
                     <Image
                       src={vid}
                       alt="naruto"

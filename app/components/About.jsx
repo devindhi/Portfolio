@@ -42,6 +42,9 @@ const TAB = [
         <GridItem>
           <Avatar name="Eve Brown" src="/tailwind-css.png" />
         </GridItem>
+        <GridItem>
+          <Avatar name="Eve Brown" src="/node.png" />
+        </GridItem>
       </Grid>
     ),
   },
