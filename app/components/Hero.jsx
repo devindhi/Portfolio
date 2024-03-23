@@ -11,6 +11,13 @@ const Hero = () => {
     router.push('/#contact');
   };
 
+  const handleDownload = () => {
+    const downloadLink = document.createElement("a");
+    downloadLink.href = "/cv.pdf"; // Specify the path to your CV here
+    downloadLink.download = "cv.pdf";
+    downloadLink.click();
+  };
+
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12">
@@ -61,6 +68,7 @@ const Hero = () => {
               variant="outline"
               mb={6}
               className="px-6 inline-block py-3 w-full sm:w-fit "
+              onClick={handleDownload}
             >
               Download CV
             </Button>
