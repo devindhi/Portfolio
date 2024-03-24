@@ -7,7 +7,7 @@ const Contact = () => {
     <div id="contact">
       <Card>
         <CardHeader>
-          <Heading size="md">Let's Connect</Heading>
+          <Heading size="md">Let&apos;s Connect</Heading>
         </CardHeader>
 
         <CardBody>

@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     title: "Hirely Website",
     description:
-      "AI-driven website that allows recruiters to hire easily.Technologies: React + Tailwind, Node + Express, MongoDB, Python, GPT-3.5 Turbo, for authentification and authorization clerk was used. A custom solution website that allows recruiters to post jobs and questions related to that role. An outside user can view the jobs and answer the questions related to the job position. A fine-tuned model then analyzes the answers submitted by the user and categorizes them into three categories: good, moderate, and bad, which are then shown to the recruiter.",
+      "AI driven website that allows recruiters to hire easily.Technologies: React + Tailwind, Node + Express, MongoDB, Python, GPT-3.5 Turbo, for authentification and authorization clerk was used. A custom solution website that allows recruiters to post jobs and questions related to that role. An outside user can view the jobs and answer the questions related to the job position. A fine-tuned model then analyzes the answers submitted by the user and categorizes them into three categories: good, moderate, and bad, which are then shown to the recruiter.",
 
     image: "/hirely.png",
     tag: ["All", "Web"],
@@ -37,7 +37,7 @@ const projectsData = [
   {
     id: 4,
     title: "E-commerce Application",
-    description: "A e-commerce platform. Technologies: Java| JavaSwing | MySql. A database that manages customers and a shopping cart GUI was created for the user and a console was created for the shop manager to manage the products in the shop.OOP concepts are properly included in this project, which makes this project a show case my knowledge in OOP concepts well",
+    description: "An e-commerce platform. Technologies: Java| JavaSwing | MySql. A database that manages customers and a shopping cart GUI was created for the user and a console was created for the shop manager to manage the products in the shop.OOP concepts are properly included in this project, which makes this project a show case my knowledge in OOP concepts well",
     image: "/online.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/devindhi/Online-Shopping",

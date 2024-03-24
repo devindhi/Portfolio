@@ -98,10 +98,10 @@ const About = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hi there! I'm a quick learner with a passion for coding and a love
-            for exploring new technologies. Always eager to dive into the latest
-            innovations, I thrive on the excitement of learning and mastering
-            new skills.
+            Hi there! I&apos;m a quick learner with a passion for coding and a
+            love for exploring new technologies. Always eager to dive into the
+            latest innovations, I thrive on the excitement of learning and
+            mastering new skills.
           </p>
           <div className="flex flex-row mt-8 gap-6">
             <Tab
