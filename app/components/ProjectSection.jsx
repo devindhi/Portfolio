@@ -49,10 +49,11 @@ const projectsData = [
     id: 5,
     title: "Vehicle Repairo",
     description:"Vehicle Repairo. Technologies: React.js | React Native | Python(Flask) | MongoDB | Firebase. A group project. An application that drivers can use to receive the nearest mechanics, receive vehicle guidance to fix a minor problem, book appointments with mechanics, view ratings and reviews, and receive vehicle service reminders. A mobile application was created for the user and a separate website was created for the mechanics.",
-    image: "/vehicle.jpg",
+    image: "/vehicle3.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/orgs/VehicleRepairo/dashboard",
     previewUrl: "/",
+    vid:"/vehicle2.jpg"
   },
   {
     id: 6,
