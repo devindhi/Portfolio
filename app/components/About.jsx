@@ -4,7 +4,6 @@ import { Image } from "@chakra-ui/react";
 import { Grid, GridItem, Avatar } from "@chakra-ui/react";
 import "tailwindcss/tailwind.css";
 import Tab from "./Tab";
-import { title } from "process";
 
 const TAB = [
   {
@@ -55,7 +54,7 @@ const TAB = [
       <ul className="list-disc pl-2">
         <li>
           B.Sc. (Hons) in Computer Science<br></br>
-          Informatics Institute of Technology afiliated with University of
+          Informatics Institute of Technology affiliated with University of
           Westminster.
         </li>
         <li>
@@ -69,7 +68,7 @@ const TAB = [
           Grade - 7A 2B passes
         </li>
         <li>
-        Java Programming certification by Informatics Institute of Technology
+          Java Programming certification by Informatics Institute of Technology
         </li>
       </ul>
     ),
@@ -120,9 +119,7 @@ const About = () => {
               Education{" "}
             </Tab>
           </div>
-          <div className="mt-8">
-            {TAB.find((t) => t.id === tab).content}
-          </div>
+          <div className="mt-8">{TAB.find((t) => t.id === tab).content}</div>
         </div>
       </div>
     </section>

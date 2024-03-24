@@ -29,7 +29,7 @@ const Hero = () => {
             fontWeight="extrabold"
             className="text-white mb-2 text-5xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold"
           >
-            Hello I'm Devindhi{""}
+             Hello I&apos;m Devindhi{""}
           </Text>
           <TypeAnimation
             sequence={[

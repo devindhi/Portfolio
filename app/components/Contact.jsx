@@ -14,12 +14,15 @@ const Contact = () => {
           <Stack divider={<StackDivider />} spacing="4">
             <Box>
               <Text pt="2" fontSize="sm">
-                Thank you for visiting my portfolio! Here, you've glimpsed into
-                my world of projects and creations. If you're interested in
-                hiring me or talking to me, I'd love to hear from you. Let's
-                connect and discuss. I'm ready to contribute my skills and
-                expertise to help achieve your goals. Looking forward to the
-                possibility of working together!
+                <Text pt="2" fontSize="sm">
+                  Thank you for visiting my portfolio! Here, you&apos;ve
+                  glimpsed into my world of projects and creations. If
+                  you&apos;re interested in hiring me or talking to me, I&apos;d
+                  love to hear from you. Let&apos;s connect and discuss.
+                  I&apos;m ready to contribute my skills and expertise to help
+                  achieve your goals. Looking forward to the possibility of
+                  working together!
+                </Text>
               </Text>
             </Box>
             <Box>
