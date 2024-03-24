@@ -62,7 +62,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, vid, demo }) => {
                 <div>
                   <p className="text-base lg:text-lg">{description}</p>
                   <Link href={gitUrl}>
-                    <Image src={"/github-icon.svg"} alt="Github Icon" mt={8} />
+                    <Image src={"/git.png"} alt="Github Icon" mt={8} />
                   </Link>
                   <Link href={demo}>
                    Demonstration
