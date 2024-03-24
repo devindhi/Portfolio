@@ -28,10 +28,10 @@ const Contact = () => {
             <Box>
               <div className="socials flex flex-row gap-2">
                 <Link href="https://github.com/devindhi">
-                  <Image src={"/github-icon.svg"} alt="Github Icon" />
+                  <Image src={"/git.png"} alt="Github Icon" />
                 </Link>
                 <Link href="https://www.linkedin.com/in/devindhi-gurusinghe-180b12295/">
-                  <Image src={"/linkedin-icon.svg"} alt="Linkedin Icon" />
+                  <Image src={"/link.png"} alt="Linkedin Icon" />
                 </Link>
               </div>
             </Box>
