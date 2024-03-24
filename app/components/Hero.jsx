@@ -13,7 +13,7 @@ const Hero = () => {
 
   const handleDownload = () => {
     const downloadLink = document.createElement("a");
-    downloadLink.href = "/cv.pdf"; // Specify the path to your CV here
+    downloadLink.href = "/cv1.pdf"; // Specify the path to your CV here
     downloadLink.download = "cv.pdf";
     downloadLink.click();
   };
